@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: #181818;
+    color: white;
+}
+
+.navbar{
+    border: 1px solid black;
+    height: 56px;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    background-color: #121111;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-ele span{
+    color: white;
+    font-size: 13px;
+}
+
+.logo{
+    position: relative;
+    z-index: 3;
+    height: 95px;
+}
+
+.nav-ele{
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.nav-ele a{
+    color: white;
+    text-decoration: none;
+}
+
+.join-btn{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 9px 40px;
+    border-radius: 3px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+.sgn-btn{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 9px 25px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+.content{
+    background-color: #181818;
+    background-image: url('https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABdIwecEe3mWONbBv5ETjkOWnh38VpwokTcdjHgQKasJhYhLCYR73RQtLM9d2iLw2nLhaT6bXPbKB6gEaR6_brj-lvlagF9sPUUsL.jpg?r=97e&quot');
+    background-size:contain;
+    background-size: 100% 115%;
+    background-repeat: no-repeat;
+    height: 650px;
+
+}
+
+.theme{
+    width: 450px;
+    position: relative;
+    top: 110px;
+    left: 73px;
+}
+
+.info{
+    /* border: 1px solid white; */
+    width: 510px;
+    height: 190px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    top: 160px;
+    left: 70px;
+}
+
+.line{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid white; */
+    width: 270px;
+    color: #a3a3a3;
+}
+
+.line a{
+    text-decoration: none;
+    color: #a3a3a3;
+}
+
+.box{
+    width: 1300px;
+    height: 65px;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid white;
+    position: relative;
+    /* top: 220px; */
+    background: linear-gradient(90deg, #6c1f41 -3.05%, #220e0f 99.59%);
+}
+
+.box img {
+    width: 65px; /* Adjust the size of the image as needed */
+    height: auto;
+    mix-blend-mode:overlay; /* Change blend mode to achieve desired effect */
+}
+
+@media screen and (max-width: 1030px){
+    .nav-ele span{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    .logo{
+        content: url('https://tse1.mm.bing.net/th?id=OIP.x8JNNxnTgNb9kH1dYroYdAHaE8&pid=Api&P=0&h=180');
+        width: 100px;
+        height: 60px;
+    }
+}
