@@ -68,7 +68,7 @@ body{
     background-size:contain;
     background-size: 100% 115%;
     background-repeat: no-repeat;
-    height: 650px;
+    height: 665px;
 
 }
 
@@ -106,20 +106,49 @@ body{
 }
 
 .box{
-    width: 1300px;
+    display: flex;
+    align-items: center;
+    width: 90%;
     height: 65px;
     margin: auto;
     border-radius: 10px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     position: relative;
     /* top: 220px; */
     background: linear-gradient(90deg, #6c1f41 -3.05%, #220e0f 99.59%);
 }
 
 .box img {
-    width: 65px; /* Adjust the size of the image as needed */
+    width: 60px; /* Adjust the size of the image as needed */
     height: auto;
+    margin-left: 3%;
     mix-blend-mode:overlay; /* Change blend mode to achieve desired effect */
+}
+
+.box div{
+    /* border: 1px solid; */
+    margin-left: 1%;
+    width: 87%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .box span{
+    border: 1px solid;
+} */
+
+.box a{
+    text-decoration: none;
+    color: white;
+    /* border: 1px solid; */
+    padding: 12px 60px 12px 60px;
+    /* width: 100px; */
+    height: auto;
+    /* margin-left: 64%; */
+    background-color: red;
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 1030px){
